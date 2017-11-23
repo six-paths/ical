@@ -1,0 +1,25 @@
+{
+    "name": "six-paths/ical",
+    "type": "package",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/six-paths/ical",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack O'Hara",
+            "email": "jack.ohara@sixpaths.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sixpaths\\ICalendar\\": "src/Sixpaths/ICalendar/"
+        }
+    }
+}
